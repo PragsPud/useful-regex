@@ -31,7 +31,6 @@ Regular Expressions (Regex) are patterns used for searching, validating, and man
 ---
 
 ## **4. Password Strength**
-- **Complex Passwords**: `/(?=(.*[0-9]))(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])(?=.*[a-z])(?=(.*[A-Z]))(?=(.*)).{8,}/`
 - **Moderate Passwords**: `/(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$/`
 
 ---
@@ -49,20 +48,19 @@ Alphanumeric string that may include `_` and `-` with a length of 3 to 16 charac
 ---
 
 ## **7. IP Address Validation**
-- **IPv4 Address**:  
+**IPv4 Address**:  
   `/^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$/`
   
 ---
 
 ## **8. Date Validation**
 ### Format Examples:
-1. `YYYY-MM-DD`: `/([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/`
+  `YYYY-MM-DD`: `/([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/`
 
 ---
 
 ## **9. HTML Tags**
-Match HTML elements with attributes:
-`/<\/?[\w\s]*>|<.+[\W]>/`
+Match HTML elements with attributes: `/<\/?[\w\s]*>|<.+[\W]>/`
 
 ---
 
