@@ -31,7 +31,7 @@ Regular Expressions (Regex) are patterns used for searching, validating, and man
 ---
 
 ## **4. Password Strength**
-- **Moderate Passwords**: `/(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$/`
+ **Moderate Passwords**: `/(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$/`
 
 ---
 
