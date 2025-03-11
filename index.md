@@ -52,7 +52,6 @@ Alphanumeric string that may include `_` and `-` with a length of 3 to 16 charac
 ---
 
 ## **8. Date Validation**
-### Format Examples:
   `YYYY-MM-DD`: `/([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/`
 
 ---
