@@ -3,8 +3,6 @@ layout: page
 title: Commonly Used Regex Expressions
 ---
 
-# Commonly Used Regex Expressions
-
 Regular Expressions (Regex) are patterns used for searching, validating, and manipulating text. Below is a collection of the most commonly used regex expressions.
 
 ---
